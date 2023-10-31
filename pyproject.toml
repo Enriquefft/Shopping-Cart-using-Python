@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "shopping-cart-using-python"
+version = "0.1.0"
+description = ""
+authors = ["Enrique <enrique.flores@utec.edu.pe>"]
+readme = "README.md"
+packages = [{include = "shopping_cart_using_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+poethepoet = {extras = ["poetry-plugin"], version = "^0.24.1"}
+pytest = "^7.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
